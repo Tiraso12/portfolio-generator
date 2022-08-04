@@ -1,21 +1,18 @@
 {
-  "name": "portfolio-generator",
+  "name": "project",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/sample.js",
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tiraso12/portfolio-generator.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Tiraso12/portfolio-generator/issues"
-  },
-  "homepage": "https://github.com/Tiraso12/portfolio-generator#readme",
   "dependencies": {
     "inquirer": "^8.2.4"
   }
